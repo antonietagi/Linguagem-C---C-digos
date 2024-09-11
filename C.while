@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main(){
+    int i = 1;
+    
+    
+    while(i){ 
+        printf("Digite o número da sorte:");
+        scanf("%d", &i);
+        i++;
+    }
+    printf("Parabéns, você acertou!!!");
+    return 0;
+}
