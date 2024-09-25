@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main(){
+    int numeros []={39, 45, 55};
+    
+    printf("%d ", numeros [0]);
+    printf("%d ", numeros [1]);
+    printf("%d ", numeros [2]);
+    //printf("%d ", numeros [3]);//erro de segmentação, não existe matriz 3.
+    
+    
+    return 0;
+}
