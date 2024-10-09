@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main(){
+    int n,i,g;
+    printf("Digite um número:");
+    scanf("%d", &n);
+    
+    for (i=1; i<=n; i++){
+        for(g=1; g<=i; g++){
+            printf("*");
+        }
+        printf("\n");
+       
+    }
+}
