@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+int main(){
+    float a;
+    int i;
+    float media, soma;
+    printf("Insira 4 notas:");
+ 
+    
+    for (i=0; i<4; i++){
+     scanf("%f", &a); 
+        soma+=a;
+    }    
+        media = soma/4;
+        printf("A média é %.2f", media);
+        
+        if(media>=6){
+            printf("\nVocê foi aprovado!!");
+            
+        }else{
+            printf("\nReprovado");
+        }
+ 
+    
+}
