@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main(){
+    int i, n, maior;
+    printf("Digite 0 para sair do loop.");
+    
+    while(1){
+        printf("\nDigite um número:");
+        scanf("%d", &n);
+        
+        if(n>maior)
+            maior = n;
+        else if(n == 0)
+        break;
+    }
+    printf("O maior número é o %d", maior);
+}
