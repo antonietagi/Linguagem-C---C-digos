@@ -1,0 +1,19 @@
+#include <stdio.h>
+int main(){
+    int i=1,n,g;
+    
+    printf("Digite um número:");
+    scanf("%d", &n);
+    
+    while(i<=n){
+        g=1;
+        while(g<=i){
+            printf("%d", g);
+            g++;
+        }
+        printf("\n");
+        i++;
+    }
+    
+    
+}
